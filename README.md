@@ -1,4 +1,5 @@
 # SUPERCOMPUTING
 
 # Assignment 1 
-For this assignment we had to create a mock project structure. 
+
+Semester long repository of the work done in DATA 440: Supercomputing in Science.
