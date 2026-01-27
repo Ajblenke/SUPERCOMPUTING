@@ -16,7 +16,7 @@ Using -p allows the creation of nested firectories without errors if a parent do
 would fail if assignments/ didn't already exist. This lets us create nested directories in one command.
 
 # Create subdirectories
-``` mkdir -p data/{raw,clean} scripts results docs config logs  ```                                                >
+``` mkdir -p data/{raw,clean} scripts results docs config logs  ```                                                
 
 The {} expression allows for the creation of multiple files/directories in one command. Without it, the command
 would fail if assignments/ didn't already exist. This lets us create nested directories in one command.
@@ -28,10 +28,10 @@ Touch creates an empty file which is needed since we are creating files not dire
 
 # Create placeholder files
 ```
-touch data/{raw,clean}/example.txt scripts/script.sh results/example.txt docs/example.txt config/example.txt logs/l>
+touch data/{raw,clean}/example.txt scripts/script.sh results/example.txt docs/example.txt config/example.txt logs/logsfile.log
 ```
-                                                                                                               >
-Placeholder files ensure our folder structure is preserved when we commit to GitHub. We used brace expansion again >
+                                                                                                               
+Placeholder files ensure our folder structure is preserved when we commit to GitHub. We used brace expansion again 
 create files in both data/raw/ and data/clean/ with one command.
 
 # Write in the README.md and assignment_1.md
