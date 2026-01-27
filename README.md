@@ -1,3 +1,3 @@
 # SUPERCOMPUTING
 
-Semester long repository of the work dont in DATA 440: Supercomputing in Science.
+Semester long repository of the work done in DATA 440: Supercomputing in Science.
