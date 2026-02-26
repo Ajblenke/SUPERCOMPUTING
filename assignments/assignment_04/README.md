@@ -83,6 +83,7 @@ seqtk comp $fasta | cut -f 1,2
 `fasta=$1` stores the filename passed to the script as a variable. `seqtk comp` outputs one line per sequence with the name, length, and nucleotide counts. Piping to `wc -l` counts sequences, `awk` sums the length column for total nucleotides, and `cut -f 1,2` extracts only the name and length columns.
 
 ## Task 9: Run summarize_fasta.sh in a loop
+Downloaded data from Genbank using `wget` then `cp file.fasta file1.fasta` and `cp file.fasta file2.fasta` to have fasta files to test the for-loop.
 Used a for-loop with `*.fasta` wildcard to run `summarize_fasta.sh` on multiple fasta files stored in `assignment_4/data/`.
 
 ```bash
