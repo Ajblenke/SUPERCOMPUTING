@@ -81,6 +81,12 @@ echo "Download complete!"
 ```bash
 chmod +x scripts/01_download_data.sh
 ```
+**Note:** After submission I identified that the samples selected were 
+AMPLICON library type rather than WGS shotgun metagenomes as required. 
+The SRA website made it difficult to filter correctly for the right 
+library type. The pipeline itself is correct and will work with any 
+valid paired-end Illumina metagenomic dataset, only the sample 
+selection needs to be corrected.
 
 ---
 
