@@ -227,6 +227,20 @@ squeue
 
 ---
 
+## Task 7: Inspect stdout and stderr
+
+Monitored job progress by inspecting the output files:
+```bash
+cat output/assignment_7.out
+cat output/assignment_7.err
+```
+The `.out` file confirmed each script ran in order. The `.err` file showed fastp 
+filtering stats for each sample and bbmap mapping progress. Initial run failed 
+because `fasterq-dump` and `bbmap` were not in `$PATH` — fixed by updating the 
+SLURM header.
+
+---
+
 ## Task 8: Results
 
 QC read counts pulled from the `.err` file:
