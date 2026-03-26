@@ -1,0 +1,37 @@
+Starting download...
+Archive:  /sciclone/home/ajblenke/SUPERCOMPUTING/assignments/assignment_07/data/dog_reference/dog_genome.zip
+  inflating: /sciclone/home/ajblenke/SUPERCOMPUTING/assignments/assignment_07/data/dog_reference/README.md  
+  inflating: /sciclone/home/ajblenke/SUPERCOMPUTING/assignments/assignment_07/data/dog_reference/ncbi_dataset/data/assembly_data_report.jsonl  
+  inflating: /sciclone/home/ajblenke/SUPERCOMPUTING/assignments/assignment_07/data/dog_reference/ncbi_dataset/data/GCF_011100685.1/GCF_011100685.1_UU_Cfam_GSD_1.0_genomic.fna  
+  inflating: /sciclone/home/ajblenke/SUPERCOMPUTING/assignments/assignment_07/data/dog_reference/ncbi_dataset/data/dataset_catalog.json  
+  inflating: /sciclone/home/ajblenke/SUPERCOMPUTING/assignments/assignment_07/data/dog_reference/md5sum.txt  
+Download complete!
+Starting quality trimming...
+Cleaning complete!
+Starting mapping...
+Mapping: DRR538767
+Done: DRR538767
+Mapping: DRR538768
+Done: DRR538768
+Mapping: DRR538769
+Done: DRR538769
+Mapping: DRR538770
+Done: DRR538770
+Mapping: DRR538771
+Done: DRR538771
+Mapping: DRR538772
+Done: DRR538772
+Mapping: DRR538773
+Done: DRR538773
+Mapping: DRR538774
+Done: DRR538774
+Mapping: DRR538775
+Done: DRR538775
+Mapping: DRR538776
+Done: DRR538776
+Mapping: DRR538777
+Done: DRR538777
+Mapping: DRR538778
+Done: DRR538778
+Mapping complete!
+Pipeline complete!
